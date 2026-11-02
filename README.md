@@ -1,60 +1,62 @@
-<h1 align="center">🌱 Node-Farm</h1>
+<div align="center">
+
+# 🌽 Node Farm
+
+A Node.js server that renders farm product pages from JSON data using the core http and fs modules.
+
+<a href="https://github.com/miladmo68/Node-Farm"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
+<a href="https://miladweb.com"><img src="https://img.shields.io/badge/Portfolio-miladweb.com-1E3A8A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio"></a>
+
+</div>
 
 <p align="center">
-  <a href="#"><b>🔗 Live Demo</b></a> •
-  <a href="https://github.com/miladmo68/Node-Farm"><b>📦 Repository</b></a>
+  <img src="./.github/preview.jpg" alt="Node Farm screenshot" width="100%" />
 </p>
 
-<p align="center">
-  A minimal Node.js project that uses core modules (like file system and HTTP) to serve dynamic farm product pages based on JSON data. Perfect for learning project structure, templating, and designing lightweight server-side functionality.
-</p>
+## ✨ Features
 
----
+- HTTP server with simple routing
+- HTML templating from JSON data
+- Product slugs with slugify
 
----
+## 🛠️ Tech Stack
 
-##  Tech Stack
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-green?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTTP%20Core%20Modules-lightgrey?style=for-the-badge" />
-</p>
+> [!NOTE]
+> There is no hosted demo for this project. Run it locally with the steps below.
 
----
+## 🚀 Getting Started
 
-##  Features
+**Prerequisites:** [Node.js](https://nodejs.org/) 18 or newer
 
-| Feature                     | Description |
-|----------------------------|-------------|
-| **Static File Templating** | Reads JSON data to dynamically generate HTML pages (e.g., home, product details) |
-| **Core Node Modules**       | Built using `fs`, `http`, and `url` modules — no external dependencies |
-| **Route Handling**          | Supports multiple URL routes (overview, product, API) for navigable content |
-| **Lightweight Structure**   | Simple and clear codebase—ideal for learning server fundamentals |
-| **Extensible Logic**        | Ready to enhance with routing framework, database integration, or RESTful API |
-
----
-
-<p align="center">
-  <b>👨‍💻 Author: Milad Mohammadi</b><br>
-  🌐 <a href="https://miladweb.com">Website</a> • 💼 <a href="https://linkedin.com/in/miladmo68">LinkedIn</a> • 🐙 <a href="https://github.com/miladmo68">GitHub</a>
-</p>
-
----
-
-##  Getting Started
+**Install and run**
 
 ```bash
-# 1) Clone the repository
 git clone https://github.com/miladmo68/Node-Farm.git
 cd Node-Farm
-
-# 2) Install dependencies (if any)
 npm install
+npm start
+```
 
-# 3) Run the application
-node server.js
+## 📁 Project Structure
 
-# 4) View in browser:
-# Navigate to http://localhost:8000/overview for an overview page,
-# or /product?id=1 for a detailed product page.
+```
+Node-Farm/
+├── dev-data/
+├── modules/
+├── templates/
+├── txt/
+├── index.js
+└── package.json
+```
+
+## 👤 Author
+
+**Milad Mohammadi** — Frontend-Focused Full-Stack Developer, Toronto 🇨🇦
+
+[![Website](https://img.shields.io/badge/Website-miladweb.com-FF6A00?style=flat-square&logo=googlechrome&logoColor=white)](https://miladweb.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-miladmo68-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miladmo68/)
+[![GitHub](https://img.shields.io/badge/GitHub-miladmo68-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/miladmo68)
+
+<p align="center"><sub>If you like this project, consider giving it a ⭐</sub></p>
